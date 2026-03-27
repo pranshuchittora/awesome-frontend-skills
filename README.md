@@ -103,6 +103,7 @@ npx skills add <owner/repo> --all
 | Repository | Skill | Install |
 |---|---|---|
 | [sveltejs/ai-tools](https://github.com/sveltejs/ai-tools) 🔺 Official | `svelte-code-writer` — Svelte code generation (maintained by the official team) | `npx skills add sveltejs/ai-tools --skill svelte-code-writer` |
+| [claude-skills/sveltekit-svelte5-tailwind-skill](https://github.com/claude-skills/sveltekit-svelte5-tailwind-skill) | `sveltekit-svelte5-tailwind` — Comprehensive SvelteKit 2 + Svelte 5 + Tailwind CSS v4 integration skill | `npx skills add claude-skills/sveltekit-svelte5-tailwind-skill` |
 
 ### TanStack
 
@@ -159,6 +160,7 @@ npx skills add <owner/repo> --all
 |---|---|---|
 | [vercel-labs/agent-browser](https://github.com/vercel-labs/agent-browser) | `agent-browser` — Fast, persistent browser automation with 15+ command categories: navigation, snapshots, interactions, data extraction, screenshots, JS evaluation; supports headless, headed, and remote cloud browsers | `npx skills add https://github.com/vercel-labs/agent-browser --skill agent-browser` |
 | [github/awesome-copilot](https://github.com/github/awesome-copilot) | `chrome-devtools` — Expert-level browser automation and debugging via Chrome DevTools Protocol: navigation, interaction, console/network inspection, JS evaluation, performance tracing, and Core Web Vitals analysis | `npx skills add github/awesome-copilot --skill chrome-devtools` |
+| [lackeyjb/playwright-skill](https://github.com/lackeyjb/playwright-skill) | `playwright-skill` — Model-invoked browser automation: Claude autonomously writes and executes custom Playwright code for testing and validation (visible browser, progressive disclosure, safe cleanup) | `npx skills add lackeyjb/playwright-skill` |
 | [anthropics/skills](https://github.com/anthropics/skills) 🔺 Official | `webapp-testing` — Test local web apps with Python Playwright (includes `with_server.py` helper, reconnaissance-then-action pattern) | `npx skills add anthropics/skills --skill webapp-testing` |
 | [currents-dev/playwright-best-practices-skill](https://github.com/currents-dev/playwright-best-practices-skill) 🔺 Official | `playwright-best-practices` — Playwright E2E, component, API, visual regression, and a11y testing best practices | `npx skills add currents-dev/playwright-best-practices-skill` |
 | [github/awesome-copilot](https://github.com/github/awesome-copilot) | `playwright-generate-test` — Generate Playwright test code | `npx skills add github/awesome-copilot --skill playwright-generate-test` |
