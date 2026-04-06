@@ -14,6 +14,7 @@
 - [設計 Design](#設計-design)
 - [動畫 Animation](#動畫-animation)
 - [測試 Testing](#測試-testing)
+- [程式碼品質 Code Quality](#程式碼品質-code-quality)
 - [TypeScript](#typescript)
 - [建置工具 Build Tools](#建置工具-build-tools)
 - [影片製作 Video](#影片製作-video)
@@ -46,6 +47,12 @@ npx skills add <owner/repo> --all
 ---
 
 ## 框架 Frameworks
+
+### 一般前端 General Frontend
+
+| 儲存庫 | 技能 | 安裝指令 |
+|---|---|---|
+| [addyosmani/agent-skills](https://github.com/addyosmani/agent-skills) | `frontend-ui-engineering` — 元件架構、設計系統、狀態管理、響應式設計、WCAG 2.1 AA 無障礙設計；建立或修改使用者介面時自動觸發 | `npx skills add addyosmani/agent-skills --skill frontend-ui-engineering` |
 
 ### React
 
@@ -173,6 +180,15 @@ npx skills add <owner/repo> --all
 
 ---
 
+## 程式碼品質 Code Quality
+
+| 儲存庫 | 技能 | 安裝指令 |
+|---|---|---|
+| [sanyuan0704/sanyuan-skills](https://github.com/sanyuan0704/sanyuan-skills) | `code-review-expert` — 涵蓋 SOLID 原則、資安掃描（XSS、注入、SSRF）、效能（N+1、快取）、錯誤處理的完整程式碼審查；P0-P3 嚴重度，修復前向使用者確認 | `npx skills add sanyuan0704/sanyuan-skills --path skills/code-review-expert` |
+| [awesome-skills/code-review-skill](https://github.com/awesome-skills/code-review-skill) | `code-review-skill` — 11+ 語言/框架指南（React 19、Vue 3.5、TypeScript、Java、Go、Rust、C/C++、CSS、架構、效能）；四階段審查流程；6 級嚴重度標籤（blocking → praise）；漸進式載入（核心約 190 行 + 按需加載參考文件） | `git clone https://github.com/awesome-skills/code-review-skill ~/.claude/skills/code-review-skill` |
+
+---
+
 ## TypeScript
 
 | 儲存庫 | 技能 | 安裝指令 |
@@ -180,6 +196,7 @@ npx skills add <owner/repo> --all
 | [bmad-labs/skills](https://github.com/bmad-labs/skills) | `typescript-clean-code` — TypeScript clean code 模式、架構規範、重構指引、PR review 原則 | `npx skills add bmad-labs/skills --skill typescript-clean-code` |
 | [bmad-labs/skills](https://github.com/bmad-labs/skills) | `typescript-unit-testing` — TS/NestJS 單元測試（Jest、DeepMocked、mongodb-memory-server、pg-mem、Kafka、Redis） | `npx skills add bmad-labs/skills --skill typescript-unit-testing` |
 | [bmad-labs/skills](https://github.com/bmad-labs/skills) | `typescript-e2e-testing` — TypeScript E2E 測試策略與 TDD 流程 | `npx skills add bmad-labs/skills --skill typescript-e2e-testing` |
+| [SpillwaveSolutions/mastering-typescript-skill](https://github.com/SpillwaveSolutions/mastering-typescript-skill) | `mastering-typescript` — 企業級 TypeScript 5.9+：泛型、映射型別、條件型別、satisfies 運算子、Zod 驗證、React + NestJS 整合、現代工具鏈（Vite 7、pnpm、ESLint 9） | `npx skills add SpillwaveSolutions/mastering-typescript-skill --skill mastering-typescript` |
 
 ---
 

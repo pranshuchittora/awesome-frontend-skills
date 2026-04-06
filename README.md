@@ -14,6 +14,7 @@ A curated list of frontend-related Agent Skills repositories that include a `SKI
 - [Design](#design)
 - [Animation](#animation)
 - [Testing](#testing)
+- [Code Quality](#code-quality)
 - [TypeScript](#typescript)
 - [Build Tools](#build-tools)
 - [Video](#video)
@@ -45,6 +46,12 @@ npx skills add <owner/repo> --all
 ---
 
 ## Frameworks
+
+### General Frontend
+
+| Repository | Skill | Install |
+|---|---|---|
+| [addyosmani/agent-skills](https://github.com/addyosmani/agent-skills) | `frontend-ui-engineering` — Component architecture, design systems, state management, responsive design, WCAG 2.1 AA accessibility; auto-triggers when building or modifying user-facing interfaces | `npx skills add addyosmani/agent-skills --skill frontend-ui-engineering` |
 
 ### React
 
@@ -172,6 +179,15 @@ npx skills add <owner/repo> --all
 
 ---
 
+## Code Quality
+
+| Repository | Skill | Install |
+|---|---|---|
+| [sanyuan0704/sanyuan-skills](https://github.com/sanyuan0704/sanyuan-skills) | `code-review-expert` — Comprehensive code review with SOLID principles, security scan (XSS, injection, SSRF), performance (N+1, caching), error handling; P0–P3 severity, confirms with user before fixes | `npx skills add sanyuan0704/sanyuan-skills --path skills/code-review-expert` |
+| [awesome-skills/code-review-skill](https://github.com/awesome-skills/code-review-skill) | `code-review-skill` — 11+ language/framework guides (React 19, Vue 3.5, TypeScript, Java, Go, Rust, C/C++, CSS, architecture, performance); four-phase review process; 6-tier severity labels (blocking → praise); progressive loading (~190 lines core + on-demand references) | `git clone https://github.com/awesome-skills/code-review-skill ~/.claude/skills/code-review-skill` |
+
+---
+
 ## TypeScript
 
 | Repository | Skill | Install |
@@ -179,6 +195,7 @@ npx skills add <owner/repo> --all
 | [bmad-labs/skills](https://github.com/bmad-labs/skills) | `typescript-clean-code` — TypeScript clean code patterns, architecture conventions, refactoring guidelines, and PR review principles | `npx skills add bmad-labs/skills --skill typescript-clean-code` |
 | [bmad-labs/skills](https://github.com/bmad-labs/skills) | `typescript-unit-testing` — TS/NestJS unit testing with Jest, DeepMocked, mongodb-memory-server, pg-mem, Kafka, and Redis | `npx skills add bmad-labs/skills --skill typescript-unit-testing` |
 | [bmad-labs/skills](https://github.com/bmad-labs/skills) | `typescript-e2e-testing` — TypeScript E2E testing strategy and TDD workflow | `npx skills add bmad-labs/skills --skill typescript-e2e-testing` |
+| [SpillwaveSolutions/mastering-typescript-skill](https://github.com/SpillwaveSolutions/mastering-typescript-skill) | `mastering-typescript` — Enterprise-grade TypeScript 5.9+: generics, mapped types, conditional types, satisfies operator, Zod validation, React + NestJS integration, modern toolchain (Vite 7, pnpm, ESLint 9) | `npx skills add SpillwaveSolutions/mastering-typescript-skill --skill mastering-typescript` |
 
 ---
 
